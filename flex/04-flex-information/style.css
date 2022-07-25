@@ -26,6 +26,7 @@ img {
 }
 
 /*solution*/
+/*
 .info{
   display: flex;
   flex-direction: column;
@@ -53,4 +54,23 @@ img {
 }
 .text{
   text-align: center;
+}
+*/
+
+body{
+  text-align: center;
+}
+
+.title{
+  margin-bottom: 54px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+}
+
+.element{
+  max-width: 200px;
 }
