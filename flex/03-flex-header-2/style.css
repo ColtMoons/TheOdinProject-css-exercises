@@ -48,8 +48,8 @@ ul {
 }
 
 
-/*solution */
-
+/*solution first version*/
+/*
 .header{
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ ul {
 .links{
   display: flex;
   padding: 0;
-  padding-left: 15px;
+  margin-left: 15px;
   gap: 8px;
 }
 
@@ -67,5 +67,29 @@ ul {
   display: flex;
   margin-left: auto;
   align-items: center;
+  gap: 8px;
+}
+*/
+
+
+/* correction of solution*/
+
+.header{
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left-items, .right-items{
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
